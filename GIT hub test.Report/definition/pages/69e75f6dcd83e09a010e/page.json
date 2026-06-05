@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "69e75f6dcd83e09a010e",
-  "displayName": "Sales",
+  "displayName": "Sales UserA",
   "displayOption": "FitToPage",
   "height": 720,
   "width": 1280
