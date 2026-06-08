@@ -25,14 +25,14 @@
                           "Entity": "financials"
                         }
                       },
-                      "Property": "Sales"
+                      "Property": " Sales"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(financials.Sales)",
-              "nativeQueryRef": "Sum of Sales"
+              "queryRef": "Sum(financials. Sales)",
+              "nativeQueryRef": "Sum of  Sales"
             }
           ]
         }
@@ -49,7 +49,7 @@
                         "Entity": "financials"
                       }
                     },
-                    "Property": "Sales"
+                    "Property": " Sales"
                   }
                 },
                 "Function": 0
@@ -62,28 +62,5 @@
       }
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "1a55f2b540ecaa302159",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "financials"
-                  }
-                },
-                "Property": "Sales"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }
