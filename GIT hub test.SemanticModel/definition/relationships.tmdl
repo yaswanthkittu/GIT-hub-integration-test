@@ -1,5 +1,5 @@
-relationship 8844229b-68d1-457c-bd14-39ef43ba74aa
+relationship fc15987c-d980-4093-a4ec-00fd8b2d1841
 	joinOnDateBehavior: datePartOnly
 	fromColumn: financials.Date
-	toColumn: LocalDateTable_84d3bf89-887c-410d-8ffa-1b7cf7d88480.Date
+	toColumn: LocalDateTable_ab4db08a-14d5-4ac2-8b38-4e1b78d83b09.Date
 
