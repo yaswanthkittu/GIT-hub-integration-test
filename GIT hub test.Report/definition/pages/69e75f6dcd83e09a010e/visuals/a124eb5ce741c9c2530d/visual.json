@@ -79,7 +79,8 @@
                 }
               },
               "queryRef": "Sum(financials.Sales)",
-              "nativeQueryRef": "Sum of Sales"
+              "nativeQueryRef": "New Sales",
+              "displayName": "New Sales"
             }
           ]
         }
