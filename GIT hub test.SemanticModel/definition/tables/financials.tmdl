@@ -1,9 +1,17 @@
 table financials
+<<<<<<< HEAD
 	lineageTag: 0bd644db-b95e-4273-a57e-676850e04fc7
 
 	column Segment
 		dataType: string
 		lineageTag: cf922890-cb71-4b90-b67c-7b84ecaa2d68
+=======
+	lineageTag: 2f3b2862-f37f-45c5-aa74-2322aecf314c
+
+	column Segment
+		dataType: string
+		lineageTag: adff74e7-96b2-43e8-b401-7c04c0e808d9
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: none
 		sourceColumn: Segment
 
@@ -11,7 +19,11 @@ table financials
 
 	column Country
 		dataType: string
+<<<<<<< HEAD
 		lineageTag: eb6e28df-cbcb-45eb-ab73-91bbe3fdb458
+=======
+		lineageTag: 5ca4959c-c92b-4b9a-a5a1-d4585b731089
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: none
 		sourceColumn: Country
 
@@ -19,7 +31,11 @@ table financials
 
 	column Product
 		dataType: string
+<<<<<<< HEAD
 		lineageTag: 94b2884b-f42e-4dca-97ff-08cf32bfc1e9
+=======
+		lineageTag: cb8781a4-ead0-4241-8539-c0f708b5b843
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: none
 		sourceColumn: Product
 
@@ -27,7 +43,11 @@ table financials
 
 	column 'Discount Band'
 		dataType: string
+<<<<<<< HEAD
 		lineageTag: 6e47aa86-82ce-4f2b-86c8-a5622db210b8
+=======
+		lineageTag: b1eaeedf-9f93-4cec-9c7c-f7dc7099cc85
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: none
 		sourceColumn: Discount Band
 
@@ -35,7 +55,11 @@ table financials
 
 	column 'Units Sold'
 		dataType: double
+<<<<<<< HEAD
 		lineageTag: f4ea1368-767c-4499-bf41-376e44a24e9c
+=======
+		lineageTag: 126b3c0b-7d49-40b8-afb8-f7e439a0da4f
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Units Sold
 
@@ -46,7 +70,11 @@ table financials
 	column 'Manufacturing Price'
 		dataType: int64
 		formatString: 0
+<<<<<<< HEAD
 		lineageTag: 8814f059-14f0-43b8-8dec-a847e9508ce9
+=======
+		lineageTag: c548f73e-b797-498d-9887-76411d70d167
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Manufacturing Price
 
@@ -55,7 +83,11 @@ table financials
 	column 'Sale Price'
 		dataType: int64
 		formatString: 0
+<<<<<<< HEAD
 		lineageTag: fa7aea9b-76af-4d2e-bb35-a715c1d20712
+=======
+		lineageTag: 09ad3a1c-6734-4872-920e-3c5ac6b865fa
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Sale Price
 
@@ -63,7 +95,11 @@ table financials
 
 	column 'Gross Sales'
 		dataType: double
+<<<<<<< HEAD
 		lineageTag: 22a233dd-dc42-42a8-9f44-f820311ecc33
+=======
+		lineageTag: 1645ca54-c0c8-4750-b677-46f2a2aae6aa
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Gross Sales
 
@@ -73,7 +109,11 @@ table financials
 
 	column Discounts
 		dataType: double
+<<<<<<< HEAD
 		lineageTag: 0043020f-02bf-4bcd-b146-3d60c51352b4
+=======
+		lineageTag: 9091b50c-12cd-465e-9555-d47a2710ff9d
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Discounts
 
@@ -81,11 +121,15 @@ table financials
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	column Sales
+	column ' Sales'
 		dataType: double
+<<<<<<< HEAD
 		lineageTag: 7ecede35-d55b-42b7-b6ac-3a0308d572a4
+=======
+		lineageTag: 44c47323-4ea6-4287-9872-0ba503b5138a
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
-		sourceColumn: Sales
+		sourceColumn: " Sales"
 
 		annotation SummarizationSetBy = Automatic
 
@@ -93,7 +137,11 @@ table financials
 
 	column COGS
 		dataType: double
+<<<<<<< HEAD
 		lineageTag: 0e3136e5-23c5-4e21-8804-a876592854c8
+=======
+		lineageTag: 7e8e3824-d5c5-48cf-ac5b-c074da1e51dc
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: COGS
 
@@ -103,7 +151,11 @@ table financials
 
 	column Profit
 		dataType: double
+<<<<<<< HEAD
 		lineageTag: 9535518a-09f8-459a-94ff-d74cd60ed9fe
+=======
+		lineageTag: 4e25ce30-f561-452a-91bb-a16074e1bd37
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Profit
 
@@ -114,14 +166,23 @@ table financials
 	column Date
 		dataType: dateTime
 		formatString: Long Date
+<<<<<<< HEAD
 		lineageTag: 5f6f1644-aa44-4380-9208-31cd10da564d
+=======
+		lineageTag: b3eb083c-29d5-4822-b998-5084c0cd5d8a
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: none
 		sourceColumn: Date
 
 		variation Variation
 			isDefault
+<<<<<<< HEAD
 			relationship: c98fc715-6a84-4f9c-8e01-ff54d41071dd
 			defaultHierarchy: LocalDateTable_e250fbdb-17e8-4011-9d05-2384d3ca982f.'Date Hierarchy'
+=======
+			relationship: fc15987c-d980-4093-a4ec-00fd8b2d1841
+			defaultHierarchy: LocalDateTable_ab4db08a-14d5-4ac2-8b38-4e1b78d83b09.'Date Hierarchy'
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 
 		annotation SummarizationSetBy = Automatic
 
@@ -130,7 +191,11 @@ table financials
 	column 'Month Number'
 		dataType: int64
 		formatString: 0
+<<<<<<< HEAD
 		lineageTag: 9f8ad611-a7f7-4de5-8640-754810901711
+=======
+		lineageTag: 435ac7e5-8e46-42f4-a838-669b29edd9f5
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Month Number
 
@@ -138,7 +203,11 @@ table financials
 
 	column 'Month Name'
 		dataType: string
+<<<<<<< HEAD
 		lineageTag: 95362e61-80de-49df-974d-e32962e20823
+=======
+		lineageTag: 712e93cf-8596-4d2c-a66b-36dc416a3de5
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: none
 		sourceColumn: Month Name
 
@@ -147,7 +216,11 @@ table financials
 	column Year
 		dataType: int64
 		formatString: 0
+<<<<<<< HEAD
 		lineageTag: 34fbfd55-fa15-472c-b325-ec4a7a6cdbea
+=======
+		lineageTag: 5e61c4ce-e159-4757-9e03-c977d7cdc1f9
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 		summarizeBy: sum
 		sourceColumn: Year
 
@@ -157,9 +230,15 @@ table financials
 		mode: import
 		source =
 				let
+<<<<<<< HEAD
 				  Source = Excel.Workbook(Web.Contents("https://ericsson.sharepoint.com/sites/FAST988/Shared%20Documents/Pipe%20line%20data/Financial%20Sample.xlsx"), null, true),
 				  #"Navigation 1" = Source{[Item = "financials", Kind = "Table"]}[Data],
 				  #"Changed column type" = Table.TransformColumnTypes(#"Navigation 1", {{"Segment", type text}, {"Country", type text}, {"Product", type text}, {"Discount Band", type text}, {"Units Sold", type number}, {"Manufacturing Price", Int64.Type}, {"Sale Price", Int64.Type}, {"Gross Sales", type number}, {"Discounts", type number}, {"Sales", type number}, {"COGS", type number}, {"Profit", type number}, {"Date", type date}, {"Month Number", Int64.Type}, {"Month Name", type text}, {"Year", Int64.Type}})
+=======
+				  Source = Excel.Workbook(File.Contents("C:\Users\zsamkuy\OneDrive - Ericsson\Apps\Microsoft Power Query\Uploaded Files\Financial Sample.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "financials", Kind = "Table"]}[Data],
+				  #"Changed column type" = Table.TransformColumnTypes(#"Navigation 1", {{"Segment", type text}, {"Country", type text}, {"Product", type text}, {"Discount Band", type text}, {"Units Sold", type number}, {"Manufacturing Price", Int64.Type}, {"Sale Price", Int64.Type}, {"Gross Sales", type number}, {"Discounts", type number}, {" Sales", type number}, {"COGS", type number}, {"Profit", type number}, {"Date", type date}, {"Month Number", Int64.Type}, {"Month Name", type text}, {"Year", Int64.Type}})
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 				in
 				  #"Changed column type"
 

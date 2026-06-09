@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 relationship c98fc715-6a84-4f9c-8e01-ff54d41071dd
 	joinOnDateBehavior: datePartOnly
 	fromColumn: financials.Date
 	toColumn: LocalDateTable_e250fbdb-17e8-4011-9d05-2384d3ca982f.Date
+=======
+relationship fc15987c-d980-4093-a4ec-00fd8b2d1841
+	joinOnDateBehavior: datePartOnly
+	fromColumn: financials.Date
+	toColumn: LocalDateTable_ab4db08a-14d5-4ac2-8b38-4e1b78d83b09.Date
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
 

@@ -72,15 +72,20 @@
                           "Entity": "financials"
                         }
                       },
-                      "Property": "Sales"
+                      "Property": " Sales"
                     }
                   },
                   "Function": 0
                 }
               },
+<<<<<<< HEAD
               "queryRef": "Sum(financials.Sales)",
               "nativeQueryRef": "Sum of Sales",
               "displayName": "Sum of Sales"
+=======
+              "queryRef": "Sum(financials. Sales)",
+              "nativeQueryRef": "Sum of  Sales"
+>>>>>>> 09533581f12bb9e48699e8f89d6611d029af400d
             }
           ]
         }
